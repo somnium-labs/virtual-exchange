@@ -1,8 +1,8 @@
-package com.linebizplus.exchange.mock.dto.request
+package com.linebizplus.exchange.virtual.dto.request
 
-import com.linebizplus.exchange.mock.classification.OrderSide
-import com.linebizplus.exchange.mock.classification.OrderType
-import com.linebizplus.exchange.mock.classification.TimeInForce
+import com.linebizplus.exchange.virtual.classification.OrderSide
+import com.linebizplus.exchange.virtual.classification.OrderType
+import com.linebizplus.exchange.virtual.classification.TimeInForce
 import java.math.BigDecimal
 
 data class AddOrderRequestDto(

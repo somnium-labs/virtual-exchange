@@ -1,4 +1,4 @@
-package com.linebizplus.exchange.mock.entities
+package com.linebizplus.exchange.virtual.entities
 
 import org.jetbrains.exposed.sql.Table
 

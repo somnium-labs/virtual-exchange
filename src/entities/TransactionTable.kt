@@ -1,7 +1,7 @@
-package com.linebizplus.exchange.mock.entities
+package com.linebizplus.exchange.virtual.entities
 
-import com.linebizplus.exchange.mock.classification.Liquidity
-import com.linebizplus.exchange.mock.classification.OrderSide
+import com.linebizplus.exchange.virtual.classification.Liquidity
+import com.linebizplus.exchange.virtual.classification.OrderSide
 import org.jetbrains.exposed.sql.Table
 import org.jetbrains.exposed.sql.`java-time`.timestamp
 

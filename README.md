@@ -5,7 +5,7 @@
 
 ## Get Started
 - 먼저 사용할 데이터베이스를 생성합니다.
-- resource/application.conf 에서 database 설정을 변경 할 수 있습니다. (default: mock)
+- resource/application.conf 에서 database 설정을 변경 할 수 있습니다. (default: virtual)
 - 처음 실행하면 balance, members, orders, transactions 테이블이 생성 됩니다.
 - 회원 가입/탈퇴 API는 별도로 존재하지 않으므로 members 테이블에 수동으로 계정을 생성 합니다.
 - 관리자 이름은 `admin` 이여야 합니다.

@@ -1,4 +1,4 @@
-package com.linebizplus.exchange.mock.components
+package com.linebizplus.exchange.virtual.components
 
 import com.fasterxml.jackson.databind.SerializationFeature
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper

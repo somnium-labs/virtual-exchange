@@ -1,6 +1,6 @@
-package com.linebizplus.exchange.mock.dto.streams
+package com.linebizplus.exchange.virtual.dto.streams
 
-import com.linebizplus.exchange.mock.classification.*
+import com.linebizplus.exchange.virtual.classification.*
 import java.math.BigDecimal
 
 data class OrderUpdateStream(

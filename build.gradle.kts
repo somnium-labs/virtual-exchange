@@ -10,11 +10,11 @@ plugins {
     kotlin("jvm") version "1.4.10"
 }
 
-group = "com.linebizplus.exchange.mock"
+group = "com.linebizplus.exchange.virtual"
 version = "0.0.1"
 
 application {
-    mainClassName = "com.linebizplus.exchange.mock.ApplicationKt"
+    mainClassName = "com.linebizplus.exchange.virtual.ApplicationKt"
 }
 
 repositories {
@@ -49,7 +49,7 @@ sourceSets["test"].resources.srcDirs("testresources")
 
 tasks.withType<Jar> {
     manifest {
-        attributes["Main-Class"] = "com.linebizplus.exchange.mock.ApplicationKt"
+        attributes["Main-Class"] = "com.linebizplus.exchange.virtual.ApplicationKt"
     }
 
     // To add all of the dependencies
@@ -62,7 +62,7 @@ tasks.withType<Jar> {
 }
 
 tasks.register<Copy>("deploy") {
-    from(file("./build/libs/mock-exchange-${version}.jar".replace("\'", "")))
-    rename { "mock-exchange.jar" }
+    from(file("./build/libs/virtual-exchange-${version}.jar".replace("\'", "")))
+    rename { "virtual-exchange.jar" }
     into("./build/libs")
 }

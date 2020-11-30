@@ -1,7 +1,7 @@
-package com.linebizplus.exchange.mock.routes
+package com.linebizplus.exchange.virtual.routes
 
-import com.linebizplus.exchange.mock.exceptions.CommonException
-import com.linebizplus.exchange.mock.services.OrderService
+import com.linebizplus.exchange.virtual.exceptions.CommonException
+import com.linebizplus.exchange.virtual.services.OrderService
 import io.ktor.application.*
 import io.ktor.response.*
 import io.ktor.routing.*

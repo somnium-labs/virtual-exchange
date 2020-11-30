@@ -1,9 +1,9 @@
-package com.linebizplus.exchange.mock.routes
+package com.linebizplus.exchange.virtual.routes
 
-import com.linebizplus.exchange.mock.classification.Error
-import com.linebizplus.exchange.mock.exceptions.CommonException
-import com.linebizplus.exchange.mock.model.Member
-import com.linebizplus.exchange.mock.services.MemberService
+import com.linebizplus.exchange.virtual.classification.Error
+import com.linebizplus.exchange.virtual.exceptions.CommonException
+import com.linebizplus.exchange.virtual.model.Member
+import com.linebizplus.exchange.virtual.services.MemberService
 import io.ktor.application.*
 import io.ktor.http.*
 import io.ktor.response.*

@@ -1,7 +1,7 @@
-package com.linebizplus.exchange.mock.dto
+package com.linebizplus.exchange.virtual.dto
 
-import com.linebizplus.exchange.mock.classification.Liquidity
-import com.linebizplus.exchange.mock.classification.OrderSide
+import com.linebizplus.exchange.virtual.classification.Liquidity
+import com.linebizplus.exchange.virtual.classification.OrderSide
 import java.math.BigDecimal
 
 data class Transaction(

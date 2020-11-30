@@ -1,14 +1,14 @@
-package com.linebizplus.exchange.mock.model
+package com.linebizplus.exchange.virtual.model
 
 
-import com.linebizplus.exchange.mock.classification.ORDERBOOK_CHANNEL
-import com.linebizplus.exchange.mock.classification.OrderSide
-import com.linebizplus.exchange.mock.dto.Order
-import com.linebizplus.exchange.mock.dto.Spread
-import com.linebizplus.exchange.mock.dto.streams.OrderbookStream
-import com.linebizplus.exchange.mock.dto.streams.WebSocketStream
-import com.linebizplus.exchange.mock.extensions.sumByBigDecimal
-import com.linebizplus.exchange.mock.services.WebSocketFeedService
+import com.linebizplus.exchange.virtual.classification.ORDERBOOK_CHANNEL
+import com.linebizplus.exchange.virtual.classification.OrderSide
+import com.linebizplus.exchange.virtual.dto.Order
+import com.linebizplus.exchange.virtual.dto.Spread
+import com.linebizplus.exchange.virtual.dto.streams.OrderbookStream
+import com.linebizplus.exchange.virtual.dto.streams.WebSocketStream
+import com.linebizplus.exchange.virtual.extensions.sumByBigDecimal
+import com.linebizplus.exchange.virtual.services.WebSocketFeedService
 import java.math.BigDecimal
 import java.time.Instant
 

@@ -1,4 +1,4 @@
-package com.linebizplus.exchange.mock.model
+package com.linebizplus.exchange.virtual.model
 
 import java.math.BigDecimal
 

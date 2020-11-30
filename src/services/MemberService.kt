@@ -1,9 +1,9 @@
-package com.linebizplus.exchange.mock.services
+package com.linebizplus.exchange.virtual.services
 
-import com.linebizplus.exchange.mock.components.query
-import com.linebizplus.exchange.mock.entities.BalanceTable
-import com.linebizplus.exchange.mock.entities.MemberTable
-import com.linebizplus.exchange.mock.model.Member
+import com.linebizplus.exchange.virtual.components.query
+import com.linebizplus.exchange.virtual.entities.BalanceTable
+import com.linebizplus.exchange.virtual.entities.MemberTable
+import com.linebizplus.exchange.virtual.model.Member
 import org.jetbrains.exposed.sql.selectAll
 
 object MemberService {

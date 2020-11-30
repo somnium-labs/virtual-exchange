@@ -1,10 +1,10 @@
-package com.linebizplus.exchange.mock.components
+package com.linebizplus.exchange.virtual.components
 
-import com.linebizplus.exchange.mock.configuration.AppConfig
-import com.linebizplus.exchange.mock.entities.BalanceTable
-import com.linebizplus.exchange.mock.entities.MemberTable
-import com.linebizplus.exchange.mock.entities.OrderTable
-import com.linebizplus.exchange.mock.entities.TransactionTable
+import com.linebizplus.exchange.virtual.configuration.AppConfig
+import com.linebizplus.exchange.virtual.entities.BalanceTable
+import com.linebizplus.exchange.virtual.entities.MemberTable
+import com.linebizplus.exchange.virtual.entities.OrderTable
+import com.linebizplus.exchange.virtual.entities.TransactionTable
 import com.zaxxer.hikari.HikariConfig
 import com.zaxxer.hikari.HikariDataSource
 import io.ktor.util.*

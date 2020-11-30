@@ -1,6 +1,6 @@
-package com.linebizplus.exchange.mock.dto.streams
+package com.linebizplus.exchange.virtual.dto.streams
 
-import com.linebizplus.exchange.mock.dto.Spread
+import com.linebizplus.exchange.virtual.dto.Spread
 
 
 data class OrderbookStream(val lastUpdatedId: Long, val asks: List<Spread>, val bids: List<Spread>)

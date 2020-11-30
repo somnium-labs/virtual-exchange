@@ -1,1 +1,1 @@
-rootProject.name = "mock-exchange"
+rootProject.name = "virtual-exchange"

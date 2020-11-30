@@ -1,4 +1,4 @@
-package com.linebizplus.exchange.mock.classification
+package com.linebizplus.exchange.virtual.classification
 
 import java.math.BigDecimal
 

@@ -1,6 +1,6 @@
-package com.linebizplus.exchange.mock.model
+package com.linebizplus.exchange.virtual.model
 
-import com.linebizplus.exchange.mock.components.serialize
+import com.linebizplus.exchange.virtual.components.serialize
 import io.ktor.http.cio.websocket.*
 import java.util.concurrent.CancellationException
 

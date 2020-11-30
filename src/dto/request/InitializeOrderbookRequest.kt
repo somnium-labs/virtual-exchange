@@ -1,4 +1,4 @@
-package com.linebizplus.exchange.mock.dto.request
+package com.linebizplus.exchange.virtual.dto.request
 
 import java.math.BigDecimal
 

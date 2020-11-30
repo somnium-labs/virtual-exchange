@@ -1,4 +1,4 @@
-package com.linebizplus.exchange.mock.classification
+package com.linebizplus.exchange.virtual.classification
 
 enum class Error(val message: String, val code: Int) {
     INVALID_API_KEY("Invalid API Key", -1001),

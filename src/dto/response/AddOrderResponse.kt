@@ -1,6 +1,6 @@
-package com.linebizplus.exchange.mock.dto.response
+package com.linebizplus.exchange.virtual.dto.response
 
-import com.linebizplus.exchange.mock.dto.Order
-import com.linebizplus.exchange.mock.dto.Transaction
+import com.linebizplus.exchange.virtual.dto.Order
+import com.linebizplus.exchange.virtual.dto.Transaction
 
 data class AddOrderResponse(val order: Order, val transactions: List<Transaction>?)

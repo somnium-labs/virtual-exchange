@@ -1,7 +1,7 @@
-package com.linebizplus.exchange.mock.configuration
+package com.linebizplus.exchange.virtual.configuration
 
-import com.linebizplus.exchange.mock.extensions.getBoolean
-import com.linebizplus.exchange.mock.extensions.getInt
+import com.linebizplus.exchange.virtual.extensions.getBoolean
+import com.linebizplus.exchange.virtual.extensions.getInt
 import com.typesafe.config.ConfigFactory
 import io.ktor.config.*
 import io.ktor.util.*
